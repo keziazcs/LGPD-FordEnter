@@ -1,0 +1,92 @@
+.fordform {
+    display: block;
+    width: 300px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    height: 26px;
+    margin: 8px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+select.fordform {
+    width: 310px;
+    height: 36px;
+    color: #807d7d;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+select:focus-visible {
+    outline: none;
+}
+
+main div {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forms {
+    display: block;
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    font-weight: 800;
+}
+
+
+button {
+    width: 200px;
+    height: 40px;
+    margin-right: 8px;
+    float: right;
+}
+
+.titulo {
+    margin-left: 8px;
+}
+
+.consentimento-texto {
+    width: 300px;
+    margin: 4px 8px;   /* era 8px */
+    font-size: 11px;
+    line-height: 1.5;
+    color: #807d7d;
+}
+
+.checkbox-linha {
+    width: 300px;
+    margin: 0 8px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    line-height: 1.1;
+}
+
+.checkbox-linha input {
+    margin-top: 3px;
+}
+
+.checkbox-linha label {
+    font-size: 12px;
+    text-align: left;
+}
+
+.consentimento-texto a,
+.checkbox-linha a {
+    color: #003b73;
+    font-weight: 600;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
